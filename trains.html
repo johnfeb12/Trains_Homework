@@ -39,7 +39,7 @@
    <th>Train Name</th>
 	 <th>Destination</th>
 	<th>Frequency</th>
-	<th>Next Arrival</th>
+	<th>First Arival</th>
 	<th>Minutes Away </th>
 	
 
@@ -87,10 +87,10 @@
 		
 		
 		<div class="panel-body">
-			<p>First Train Time</p>
+			<p>Frequency</p>
   	  <div class="input-group">
   <span  id="sizing-addon2"></span>
-  <input id="EmployeeDate" type="text" class="form-control" placeholder="First Train Time" aria-describedby="sizing-addon2">
+  <input id="EmployeeDate" type="text" class="form-control" placeholder="Frequency" aria-describedby="sizing-addon2">
 		</div>
 	</div>
 
@@ -99,10 +99,10 @@
 		
 		
 		<div class="panel-body">
-			<p>Frequency</p>
+			<p>First Arival</p>
   	  <div class="input-group">
   <span ></span>
-  <input id="EmployeePay" type="text" class="form-control" placeholder="Frequency" aria-describedby="sizing-addon2">
+  <input id="EmployeePay" type="text" class="form-control" placeholder="Frist Arival" aria-describedby="sizing-addon2">
 		</div>
 	</div>
   	
@@ -143,6 +143,9 @@
   	role = $("#EmployeeRole").val().trim();
   	date = $("#EmployeeDate").val().trim();
   	rate = $("#EmployeePay").val().trim();
+
+
+
 
   	database.ref().push({
 
